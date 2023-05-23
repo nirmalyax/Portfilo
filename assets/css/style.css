@@ -18,19 +18,30 @@ header {
     top: 0;
     left: 0;
     z-index: 111;
-    background-color: #ffffff;
+    background-color:#F2F0F0;
     box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15);
 }
 
 .navbar{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    height: 50px;
 }
 
-.logo{
-    position: sticky;
-    left: 33px;
+.logo a{
+    font-weight: 1000;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #574847;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo a b{
+    font-size: 30px;
+    color: #7f00ff;
 }
 
 ul{
