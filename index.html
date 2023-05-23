@@ -21,7 +21,6 @@
                     <a href="Home"><img src="assets/img/h.png" height="50px" alt=""></a>
                 </div>
                 
-                
                     <ul>
                         <li><a href="Home">Home</a></li>
                         <li><a href="About">About</a></li>
@@ -32,27 +31,7 @@
                             <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
                             </li>
                     </ul>
-                
-                <div class="nav-toggle" id="nav-toggle">
-                    <i class="bx bx-menu"></i>
-                </div>
+            </div>    
         </header>   
-        
-        <script>
-            const toggleBtn = document.querySelector('.toggle_btn')
-            const toggleBtnIcon = document.querySelector('.toggle_btn i')
-            const dropDownMenu = document.querySelector('.dropdown_menu')
-
-            toggleBtn.onclick = function(){
-                dropDownMenu.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains('open')
-
-                toggleBtnIcon.classList = isOpen
-                ? 'fa-solid fa-xmark'
-                : 'fa-solid fa-bars'
-            }
-
-        </script>
-
     </body>
 </html>

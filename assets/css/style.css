@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
 }
 
 body{
-    height: 100vh;
-    background-color: white;
+    overflow: hidden;
     text-decoration: none;
 }
 
@@ -17,37 +17,34 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    z-index: 111;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15);
 }
 
 .navbar{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 70px;
+    justify-content: space-between;
 }
 
+.logo{
+    position: sticky;
+    left: 33px;
+}
 
-.navbar ul{
+ul{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.navbar ul li{
+ul li{
     list-style: none;
+    margin: 0 15px;
+}
+
+ul li a {
     text-decoration: none;
-    margin: 0 23px;
-    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
 }
-
-a{ 
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: rgb(58, 39, 227);
-}
-
