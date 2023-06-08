@@ -88,3 +88,13 @@ ul li a:hover{
     display:none;
 }
 
+/*Main*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    
+}
+
