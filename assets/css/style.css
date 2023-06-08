@@ -89,12 +89,5 @@ ul li a:hover{
 }
 
 /*Main*/
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero img{
-    
-}
+
 
