@@ -28,14 +28,11 @@ header {
 }
 
 .navbar{
-    width: 90%;
     height: 50px;
-    max-width: 1200px;
-    margin:  auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: sticky;
+    justify-content: space-around;
+    /* position: sticky; */
 }
 
 .navbar .logo a{
@@ -89,5 +86,13 @@ ul li a:hover{
 }
 
 /*Main*/
+section .top{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
 
-
+.top img{
+    border-radius: 100%;
+}
