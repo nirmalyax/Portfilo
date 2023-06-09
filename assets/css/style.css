@@ -159,17 +159,16 @@ ul li a:hover{
 .first{
     display: flex;
     justify-content: space-around;
-    /* padding-top: 10px; */
+    padding-top: 69px;
     display: flex;
 }
 .first div{ 
     width: 30%;
 }
 .left{
-    background-color: red;
+    font-size: 4rem;
 }
-.right{
-    background-color: red;
-
+.right img{
+    width: 472px;
 }
 
