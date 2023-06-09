@@ -13,18 +13,19 @@
 }
 
 body{
-    overflow: hidden;
-    background-color: #ffffff;
+    /* overflow: hidden; */
+    background-color: #ccc4c4;
 }
 
 header {
     width: 100%;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    padding-top: 21px;
+    /* top: 0;
     left: 0;
-    z-index: 111;
-    background-color:#F2F0F0;
-    box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15);
+    z-index: 111; */
+    /* background-color:#F2F0F0;
+    box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15); */
 }
 
 .navbar{
@@ -86,12 +87,11 @@ ul li a:hover{
 }
 
 /*Main*/
-section{
+.second{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 659px;
     display: flex;
-    justify-content: center;
     
 }
 
@@ -154,4 +154,22 @@ section{
    
    .card button:hover {
     background: #534bf3;
-   }
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 10px; */
+    display: flex;
+}
+.first div{ 
+    width: 30%;
+}
+.left{
+    background-color: red;
+}
+.right{
+    background-color: red;
+
+}
+
