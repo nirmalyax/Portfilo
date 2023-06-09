@@ -14,18 +14,18 @@
 
 body{
     /* overflow: hidden; */
-    background-color: #ccc4c4;
+    background-color: #CCFBFE;
 }
 
 header {
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
     padding-top: 21px;
     /* top: 0;
     left: 0;
     z-index: 111; */
-    /* background-color:#F2F0F0;
-    box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15); */
+    /* background-color:#F2F0F0;*/
+    /* box-shadow: 0 1px 4px rgba(123, 140, 157, 0.15);  */
 }
 
 .navbar{
@@ -38,7 +38,7 @@ header {
 
 .navbar .logo a{
     font-weight: 1000;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #574847;
@@ -66,7 +66,7 @@ ul li{
 ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    transition: scale 0.2 ease;
+    /* transition: scale 0.2 ease; */
 }
 
 ul li a img{
@@ -159,14 +159,18 @@ ul li a:hover{
 .first{
     display: flex;
     justify-content: space-around;
-    padding-top: 69px;
+    padding-top: 118px;
     display: flex;
 }
 .first div{ 
-    width: 30%;
+    /* width: 30%; */
 }
 .left{
-    font-size: 4rem;
+    font-size: 3rem;
+    
+}
+.left p{
+ font-weight: 800;
 }
 .right img{
     width: 472px;
