@@ -173,6 +173,10 @@ ul li a:hover{
  font-weight: 800;
  color: #1957C2;
 }
+.left #element{
+    color: #FF654C;
+}
+
 .right img{
     width: 472px;
 }
