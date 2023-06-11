@@ -20,7 +20,8 @@ body{
 header {
     width: 100%;
     position: fixed;
-    padding-top: 21px;
+    /* padding-top: 21px; */
+    margin: 25px 0;
     /* top: 0;
     left: 0;
     z-index: 111; */
@@ -29,7 +30,7 @@ header {
 }
 
 .navbar{
-    height: 50px;
+    /* height: 5px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -159,7 +160,8 @@ ul li a:hover{
 .first{
     display: flex;
     justify-content: space-around;
-    padding-top: 118px;
+    padding-top: 180px;
+    /* margin: 110px 0; */
     display: flex;
 }
 .first div{ 
@@ -167,17 +169,29 @@ ul li a:hover{
 }
 .left{
     font-size: 3rem;
-    
+    /* margin: 110px 0; */
 }
+
 .left p{
- font-weight: 800;
+ font-weight: 1000;
  color: #1957C2;
+ -webkit-text-stroke: 0.05px;
+ -webkit-text-fill-color: transparent;
 }
+
+
 .left #element{
     color: #FF654C;
+    font-weight: 900;
 }
 
 .right img{
     width: 472px;
 }
 
+main hr{
+    /* border: 0; */
+    background: #1957C2;
+    height: 1px;
+    margin: 108px 72px;
+}
