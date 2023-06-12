@@ -88,85 +88,12 @@ ul li a:hover{
 }
 
 /*Main*/
-.second{
-    
-        display: flex;
-        justify-content: space-around;
-}
-
- H2{
-    display: flex;
-    justify-content: center;
-    margin: -68px 0px;
-}
-
-.card {
-    width: 190px;
-    height: 254px;
-    background: #370f93;
-    border-radius: 15px;
-    box-shadow: 1px 5px 60px 0px #0d07766b;
-   }
-   
-   .card .card-border-top {
-    width: 60%;
-    height: 3%;
-    background: #9690fc;
-    margin: auto;
-    border-radius: 0px 0px 15px 15px;
-   }
-   
-   .card span {
-    font-weight: 600;
-    color: white;
-    text-align: center;
-    display: block;
-    padding-top: 10px;
-    font-size: 16px;
-   }
-   
-   .card .job {
-    font-weight: 400;
-    color: white;
-    display: block;
-    text-align: center;
-    padding-top: 3px;
-    font-size: 12px;
-   }
-   
-   .card .img {
-    display: flex;
-    justify-content: center;
-    width: 70px;
-    height: 80px;
-    background: #6b64f3;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 25px;
-   }
-   
-   .card button {
-    padding: 8px 25px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    border: none;
-    margin-top: 30px;
-    background: #6b64f3;
-    color: white;
-    font-weight: 600;
-   }
-   
-   .card button:hover {
-    background: #534bf3;
-}
-
 .first{
     display: flex;
     justify-content: space-around;
     padding-top: 180px;
     /* margin: 110px 0; */
-    display: flex;
+    /* display: flex; */
 }
 .first div{ 
     /* width: 30%; */
@@ -199,3 +126,17 @@ main hr{
     height: 1px;
     margin: 108px 72px;
 }
+
+.second{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+H2{
+display: flex;
+justify-content: center;
+margin: -68px 0px;
+}
+
+
