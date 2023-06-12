@@ -14,7 +14,7 @@
 
 body{
     /* overflow: hidden; */
-    background-color: #CCFBFE;
+    background-color: #ffffff;
 }
 
 header {
@@ -89,11 +89,15 @@ ul li a:hover{
 
 /*Main*/
 .second{
+    
+        display: flex;
+        justify-content: space-around;
+}
+
+ H2{
     display: flex;
     justify-content: center;
-    padding-top: 659px;
-    display: flex;
-    
+    margin: -68px 0px;
 }
 
 .card {
