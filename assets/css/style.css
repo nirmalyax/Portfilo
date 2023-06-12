@@ -95,7 +95,7 @@ ul li a:hover{
     /* margin: 110px 0; */
     /* display: flex; */
 }
-.first div{ 
+.first div{
     /* width: 30%; */
 }
 .left{
@@ -124,19 +124,28 @@ main hr{
     /* border: 0; */
     background: #1957C2;
     height: 1px;
-    margin: 108px 72px;
+    margin: 68px 72px;
 }
 
 .second{
     display: flex;
     justify-content: space-around;
+    margin: 20px 10px;
 
 }
 
 H2{
-display: flex;
-justify-content: center;
-margin: -68px 0px;
+ display: flex;
+ justify-content: center;
+ /* margin: 68px 0px; */
+}
+
+
+.about{
+  background-color: red;
+}
+.about1{
+    background-color: red;
 }
 
 
