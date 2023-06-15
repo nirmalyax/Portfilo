@@ -134,7 +134,7 @@ main hr{
 
 .lin_k{
     text-decoration: none;
-    /* padding: 5%; */
+    padding: 1%;
 }
 
 .social {
@@ -151,26 +151,26 @@ main hr{
     cursor: pointer;
     transition: 400ms;
   }
-  
+
   .social .git {
     color: white;
     font-weight: 700;
     font-size: 1em;
     transition: 400ms;
   }
-  
+
   .social svg path {
     transition: 400ms;
   }
-  
+
   .social:hover {
     background-color: transparent;
   }
-  
+
   .social:hover .git {
     color: #181717;
   }
-  
+
   .social:hover svg path {
     fill: #181717;
   }
@@ -178,9 +178,9 @@ main hr{
 
 .lin_k1{
     text-decoration: none;
-    position: absolute;
-    left: 267px;
-    /* padding: 5%; */
+    /* position: absolute;
+    left: 267px; */
+    padding: 1%;
 }
 
 .social2 {
@@ -197,27 +197,27 @@ main hr{
     cursor: pointer;
     transition: 400ms;
   }
-  
+
   .social2 .linked {
     color: white;
     font-weight: 700;
     font-size: 1em;
     transition: 400ms;
   }
-  
+
   .social2 svg path {
     transition: 400ms;
     fill: white;
   }
-  
+
   .social2:hover {
     background-color: transparent;
   }
-  
+
   .social2:hover .linked {
     color: #0B65C2;
   }
-  
+
   .social2:hover svg path {
     fill: #0B65C2;
   }
@@ -253,17 +253,17 @@ H2{
     border-radius: 20px;
     background: var(--bg-color);
   }
-  
+
   .card__img {
     height: 192px;
     width: 100%;
   }
-  
+
   .card__img svg {
     height: 100%;
     border-radius: 20px 20px 0 0;
   }
-  
+
   .card__avatar {
     position: absolute;
     width: 114px;
@@ -275,26 +275,26 @@ H2{
     align-items: center;
     top: calc(50% - 57px);
   }
-  
+
   .card__avatar svg {
     width: 100px;
     height: 100px;
   }
-  
+
   .card__title {
     margin-top: 60px;
     font-weight: 500;
     font-size: 18px;
     color: var(--main-color);
   }
-  
+
   .card__subtitle {
     margin-top: 10px;
     font-weight: 400;
     font-size: 15px;
     color: var(--submain-color);
   }
-  
+
   .card__btn {
     margin-top: 15px;
     width: 90px;
@@ -308,53 +308,161 @@ H2{
     text-transform: uppercase;
     transition: all 0.3s;
   }
-  
+
   .card__btn-solid {
     background: var(--main-color);
     color: var(--bg-color);
   }
-  
+
   .card__btn:hover {
     background: var(--main-color);
     color: var(--bg-color);
   }
-  
+
   .card__btn-solid:hover {
     background: var(--bg-color);
     color: var(--main-color);
   }
-  
+
 
 
 .about1{
     width: 60%;
-    /* background-color: red; */
+    /* background-color: red;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
+.email{
+    /* display: flex; */
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* margin: -13px; */
 
+}
+/* tooltip settings 👇 */
 
+.copy {
+    /* button */
+    /* --button-bg: #353434;
+    --button-hover-bg: #464646; */
+    --button-text-color: #CCCCCC;
+    --button-hover-text-color: #8bb9fe;
+    --button-border-radius: 10px;
+    --button-diameter: 18px;
+    --button-outline-width: 1px;
+    --button-outline-color: rgb(141, 141, 141);
+    /* tooltip */
+    --tooltip-bg: #f4f3f3;
+    --toolptip-border-radius: 4px;
+    --tooltip-font-family: Menlo, Roboto Mono, monospace;
+    /* 👆 this field should not be empty */
+    --tooltip-font-size: 12px;
+    /* 👆 this field should not be empty */
+    --tootip-text-color: rgb(50, 50, 50);
+    --tooltip-padding-x: 7px;
+    --tooltip-padding-y: 7px;
+    --tooltip-offset: 8px;
+    --tooltip-transition-duration: 0.3s;
+    /* 👆 if you need a transition,
+    just remove the comment,
+    but I didn't like the transition :| */
+  }
 
-.home-social {
-    display: flex;
-    flex-direction: column;
+  .copy {
+    box-sizing: border-box;
+    width: var(--button-diameter);
+    height: ;
+    border-radius: var(--button-border-radius);
+    background-color: var(--button-bg);
+    color: #877c7c;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
   }
-  .home-social-icon {
-    width: max-content;
-    margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
-    color: var(--second-color);
+
+  .tooltip {
+    /* position: absolute; */
+    opacity: 0;
+    visibility: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font: var(--tooltip-font-size) var(--tooltip-font-family);
+    color: var(--tootip-text-color);
+    background: var(--tooltip-bg);
+    padding: var(--tooltip-padding-y) var(--tooltip-padding-x);
+    border-radius: var(--toolptip-border-radius);
+    pointer-events: none;
+    transition: all var(--tooltip-transition-duration) cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  .home-social-icon:hover,
-  .footer-icon:hover {
-    color: var(--first-color);
+
+  .tooltip::before {
+    content: attr(data-text-initial);
   }
-  .home-img {
+
+  .tooltip::after {
+    content: "";
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 65%;
+    bottom: calc(var(--tooltip-padding-y) / 2 * -1);
+    width: var(--tooltip-padding-y);
+    height: var(--tooltip-padding-y);
+    background: inherit;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -999;
+    pointer-events: none;
   }
 
-  
+  .copy svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .checkmark {
+    display: none;
+  }
+
+  /* actions */
+
+  .copy:hover .tooltip,
+  .copy:focus:not(:focus-visible) .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: calc((100% + var(--tooltip-offset)) * -1);
+  }
+
+  .copy:focus:not(:focus-visible) .tooltip::before {
+    content: attr(data-text-end);
+  }
+
+  .copy:focus:not(:focus-visible) .clipboard {
+    display: none;
+  }
+
+  .copy:focus:not(:focus-visible) .checkmark {
+    display: block;
+  }
+
+  .copy:hover,
+  .copy:focus {
+    background-color: var(--button-hover-bg);
+  }
+
+  .copy:active {
+    outline: var(--button-outline-width) solid var(--button-outline-color);
+  }
+
+  .copy:hover svg {
+    color: var(--button-hover-text-color);
+  }
+
+
+
+
+
 

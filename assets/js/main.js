@@ -13,11 +13,11 @@ const toggleBtn = document.querySelector('.toggle_btn')
                 : 'fa-solid fa-bars'
             }
 // =========Copy Button==========
-            const copy = document.getElementById("copy");
-            copy.addEventListener("click", () => {
-              navigator.clipboard.writeText("kasulaarunteja@gmail.com");
-              copy.innerHTML = "copied";
-              setTimeout(() => {
-                copy.innerHTML = null;
-              }, 1000);
-            });
+const copy = document.getElementById("email1");
+copy.addEventListener("click", () => {
+  navigator.clipboard.writeText("nirmalya267@gmail.com");
+  copy.innerHTML = "copied";
+//   setTimeout(() => {
+//     copy.innerHTML = null;
+//   }, 1000);
+});
