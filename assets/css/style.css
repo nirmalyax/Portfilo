@@ -127,6 +127,102 @@ main hr{
     margin: 68px 72px;
 }
 
+.btn1{
+    padding: 40px 0px;
+    display: flex;
+}
+
+.lin_k{
+    text-decoration: none;
+    /* padding: 5%; */
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .social .git {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .social svg path {
+    transition: 400ms;
+  }
+  
+  .social:hover {
+    background-color: transparent;
+  }
+  
+  .social:hover .git {
+    color: #181717;
+  }
+  
+  .social:hover svg path {
+    fill: #181717;
+  }
+
+
+.lin_k1{
+    text-decoration: none;
+    position: absolute;
+    left: 267px;
+    /* padding: 5%; */
+}
+
+.social2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #0B65C2;
+    outline: 3px #0B65C2 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .social2 .linked {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .social2 svg path {
+    transition: 400ms;
+    fill: white;
+  }
+  
+  .social2:hover {
+    background-color: transparent;
+  }
+  
+  .social2:hover .linked {
+    color: #0B65C2;
+  }
+  
+  .social2:hover svg path {
+    fill: #0B65C2;
+  }
+
+
 .second{
     display: flex;
     justify-content: space-around;
@@ -137,7 +233,8 @@ main hr{
 H2{
  display: flex;
  justify-content: center;
- margin: 68px 0px;
+ margin: 50px 0px;
+ font-size: 2em;
 }
 
 
@@ -236,4 +333,28 @@ H2{
     justify-content: center;
 }
 
+
+
+.home-social {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-social-icon {
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: var(--second-color);
+  }
+  .home-social-icon:hover,
+  .footer-icon:hover {
+    color: var(--first-color);
+  }
+  .home-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+  }
+
+  
 
