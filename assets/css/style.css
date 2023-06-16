@@ -296,6 +296,7 @@ H2{
   }
 
   .card__btn {
+    cursor: pointer;
     margin-top: 15px;
     width: 90px;
     height: 40px;
