@@ -144,7 +144,7 @@ main hr{
     padding: 10px 15px;
     gap: 15px;
     background-color: #181717;
-    outline: 3px #181717 solid;
+    /* outline: 0.5px #181717 solid; */
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
@@ -190,7 +190,7 @@ main hr{
     padding: 10px 15px;
     gap: 15px;
     background-color: #0B65C2;
-    outline: 3px #0B65C2 solid;
+    /* outline: 0.5px #0B65C2 solid; */
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
@@ -305,7 +305,7 @@ H2{
     font-weight: 700;
     font-size: 11px;
     color: var(--main-color);
-    background: var(--bg-color);
+    background: #FF8474;
     text-transform: uppercase;
     transition: all 0.3s;
   }
