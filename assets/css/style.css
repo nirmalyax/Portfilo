@@ -567,3 +567,31 @@ H2{
 
 
 
+/* =========footer========== */
+
+.footer{
+    margin: 8% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: #000000;
+}
+
+.lef{
+    padding-top: 34px;
+}
+
+.footer a{
+    margin-left: 80px;
+    /* font-weight: 1000; */
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* color: #574847; */
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
