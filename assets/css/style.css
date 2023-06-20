@@ -37,7 +37,7 @@ header {
     /* position: sticky; */
 }
 
-.navbar .logo a{
+.navbar .logo #lgo{
     font-weight: 1000;
     font-size: 35px;
     letter-spacing: 3px;
@@ -55,29 +55,29 @@ header {
     color: #7f00ff;
 }
 
-ul{
+.links{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
 }
 
-ul li{
+.links li{
     list-style: none;
     margin: 0 15px;
 }
 
-ul li a {
+.links li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     /* transition: scale 0.2 ease; */
 }
 
-ul li a img{
+.links li a img{
     display: block;
 }
 
-ul li a:hover{
+.links li a:hover{
     border-radius: 20px;
     scale: 1.05;
     /* color: #7f00ff; */
@@ -577,6 +577,10 @@ H2{
 .footer {
     background-color: #000000;
 }
+.ftr{
+    display: flex;
+    justify-content: space-between;
+}
 
 .lef{
     padding-top: 34px;
@@ -599,7 +603,15 @@ H2{
     font-size: 12px;
     color: #726f6f;
     padding-top: 7px;
+    margin-bottom: 20px;
 }
+.lic #lnk{
+    font-size: 12px;
+    color: #726f6f;
+    padding-top: 7px;
+    margin-bottom: 20px;
+}
+
 .w-4 {
     width: 1rem!important;
     padding-top: 2px;
@@ -608,16 +620,70 @@ H2{
     height: 1rem!important;
 }
 
-.footer a{
+.text-gray-300 {
+    --tw-text-opacity: 1 !important;
+    color: rgb(209 213 219 / var(--tw-text-opacity))!important;
+}
+.text-base {
+    font-size: 12px;
+    line-height: 1.5rem!important;
+}
+.p-6 {
+    padding: 0.7rem!important;
+}
+.bg-dark-800 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(17 17 17 / var(--tw-bg-opacity))!important;
+}
+/* .border-none {
+    border-style: none!important;
+} */
+.rounded-xl {
+    border-radius: 0.35rem!important;
+}
+
+.resize-none {
+    resize: none!important;
+}
+.w-full {
+    width: 40%!important;
+    height: 159px;
+}
+
+.footer #ft{
     margin-left: 80px;
     /* font-weight: 1000; */
     font-size: 35px;
     letter-spacing: 3px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* color: #574847; */
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
     cursor: pointer;
+}
+.rit{
+    padding-top: 34px;
+    margin-right: 23px;
+    width: 30%;
+}
+
+.text-offwhite {
+    --tw-text-opacity: 1 !important;
+    color: rgb(242 242 242 / var(--tw-text-opacity))!important;
+}
+.font-semibold {
+    font-size: 23px;
+    font-weight: 600!important;
+}
+.mt-6 {
+    margin-top: 1.5rem!important;
+}
+.text-sm {
+    font-size: .875rem!important;
+    line-height: 1.25rem!important;
+}
+.list-none {
+    list-style-type: none!important;
 }
