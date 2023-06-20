@@ -601,13 +601,13 @@ H2{
 }
 .lic p{
     font-size: 12px;
-    color: #726f6f;
+    color: #8b8686;
     padding-top: 7px;
     margin-bottom: 20px;
 }
 .lic #lnk{
     font-size: 12px;
-    color: #726f6f;
+    color: #8b8686;
     padding-top: 7px;
     margin-bottom: 20px;
 }
@@ -687,3 +687,17 @@ H2{
 .list-none {
     list-style-type: none!important;
 }
+.list-none li a{
+    text-decoration: none;
+}
+.list-none li:hover{
+    color: red;
+  /* font-size: 30px; */
+  /* text-decoration: underline; */
+  background-color: #726f6f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-decoration-style: dotted; */
+  transition: font-size 0.3s ease-out;
+}
+
