@@ -389,7 +389,7 @@ H2{
   .copy {
     box-sizing: border-box;
     width: var(--button-diameter);
-    height: ;
+    /* height: ; */
     border-radius: var(--button-border-radius);
     background-color: var(--button-bg);
     color: #877c7c;
@@ -691,7 +691,7 @@ H2{
     text-decoration: none;
 }
 .list-none li:hover{
-    color: red;
+  /* color:k red; */
   /* font-size: 30px; */
   /* text-decoration: underline; */
   background-color: #726f6f;
