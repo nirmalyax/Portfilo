@@ -581,6 +581,32 @@ H2{
 .lef{
     padding-top: 34px;
 }
+.lef #bio{
+    padding-top: 7px;
+    width:40% ;
+    margin-left: 80px;
+    font-size: 12px;
+    color: #726f6f;
+}
+
+.lic{
+    /* display: flex; */
+    margin-top: 29px;
+    color: #e3e3e3;
+    margin-left: 80px;
+}
+.lic p{
+    font-size: 12px;
+    color: #726f6f;
+    padding-top: 7px;
+}
+.w-4 {
+    width: 1rem!important;
+    padding-top: 2px;
+}
+.h-4 {
+    height: 1rem!important;
+}
 
 .footer a{
     margin-left: 80px;
