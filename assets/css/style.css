@@ -696,7 +696,7 @@ H2{
   /* color:k red; */
   /* font-size: 30px; */
   /* text-decoration: underline; */
-  background-color: #726f6f;
+  background-color: #929090;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-decoration-style: dotted; */
@@ -709,9 +709,10 @@ H2{
 .gap-6 {
     gap: 1.5rem!important;
 }
-.list-none {
+.list-non {
     list-style-type: none!important;
 }
+
 .flex {
     display: flex!important;
 }
@@ -719,7 +720,7 @@ H2{
     margin-top: 2rem!important;
 }
 .transition {
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter!important;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
     transition-timing-function: cubic-bezier(.4,0,.2,1)!important;
     transition-duration: .15s!important;
 }
@@ -727,7 +728,28 @@ H2{
     --tw-text-opacity: 1 !important;
     color: rgb(156 156 156 / var(--tw-text-opacity))!important;
 }
+.sr-onl {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border-width: 0!important;
+}
+
+.insta{
+    background: transparent;
+}
+
+.insta:hover,
+.insta:focus{
+    
+    color: rgb(0, 0, 0);
+}
+
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none; 
 }
