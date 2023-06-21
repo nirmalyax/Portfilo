@@ -584,10 +584,12 @@ H2{
 
 .lef{
     padding-top: 34px;
+    padding-bottom: 34px;
+    width: inherit;
 }
 .lef #bio{
     padding-top: 7px;
-    width:40% ;
+    width:55% ;
     margin-left: 80px;
     font-size: 12px;
     color: #726f6f;
@@ -646,7 +648,7 @@ H2{
     resize: none!important;
 }
 .w-full {
-    width: 40%!important;
+    width: 50%!important;
     height: 159px;
 }
 
@@ -666,7 +668,7 @@ H2{
 .rit{
     padding-top: 34px;
     margin-right: 23px;
-    width: 30%;
+    width: 40%;
 }
 
 .text-offwhite {
@@ -700,4 +702,32 @@ H2{
   /* text-decoration-style: dotted; */
   transition: font-size 0.3s ease-out;
 }
-
+.soc{
+    /* background-color: white; */
+    padding-top: 30px;
+}
+.gap-6 {
+    gap: 1.5rem!important;
+}
+.list-none {
+    list-style-type: none!important;
+}
+.flex {
+    display: flex!important;
+}
+.mt-8 {
+    margin-top: 2rem!important;
+}
+.transition {
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter!important;
+    transition-timing-function: cubic-bezier(.4,0,.2,1)!important;
+    transition-duration: .15s!important;
+}
+.text-grey {
+    --tw-text-opacity: 1 !important;
+    color: rgb(156 156 156 / var(--tw-text-opacity))!important;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
