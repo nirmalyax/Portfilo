@@ -1,5 +1,3 @@
-Sure! Here's an example of a contributing.md file you can use for your portfolio project:
-
 # Contributing Guidelines
 
 Welcome to the Nirmalya Portfolio repository! We appreciate your interest in contributing. Whether you're fixing a bug, adding a new feature, or suggesting an improvement, your contributions are valuable to us.
