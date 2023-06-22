@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a5f51f59-48dc-440d-aae9-dda81cc6227c/deploy-status)](https://app.netlify.com/sites/nirmalyaportfolio/deploys)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={nirmalyax}
+https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nirmalyax
 # Portfolio Design Skeleton
 
 ## Introduction
