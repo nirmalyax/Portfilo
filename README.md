@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5f51f59-48dc-440d-aae9-dda81cc6227c/deploy-status)](https://app.netlify.com/sites/nirmalyaportfolio/deploys)
 # Portfolio Design Skeleton
 
 ## Introduction
