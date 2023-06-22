@@ -524,6 +524,10 @@ H2{
   }
   
   .card2 .front-content p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
     font-size: 32px;
     font-weight: 700;
     opacity: 1;
@@ -533,6 +537,8 @@ H2{
     -webkit-text-fill-color: transparent;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
   }
+
+  
   
   .card2 .content {
     position: absolute;
