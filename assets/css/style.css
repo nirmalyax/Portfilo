@@ -575,11 +575,11 @@ H2{
 .contact{
   width: 100%;
   height: 100%;
-  background-image: ('assets/img/Contact_Us_Banner.jpg');
   padding: 63px 53px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(/assets/img/Contact_Us_Banner.jpg);
 }
 .contact1{
   display: flex;
