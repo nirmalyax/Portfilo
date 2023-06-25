@@ -227,13 +227,14 @@
 
             <section class="contact">
                 <div class="contact1">
-                    <form>
+                    <form action="https://formspree.io/f/xpzgaqwo" method="post">
                         <h3>GET IN TOUCH</h3>
-                        <input type="text" id="name" placeholder="Your Name" required>
-                        <input type="email" id="email" placeholder="Email" required>
-                        <input type="tel" id="Phone no" placeholder="Phone no" required>
-                        <textarea id="message" rows="4" placeholder="Drop me a message"></textarea>
-                        <button type="submit"> Submit</button>
+                        <input name="name" type="text" id="name" placeholder="Full Name" required>
+                        <input name="email" type="email" id="email" placeholder="Email" required>
+                        <input name="contact_number" type="tel" id="Phoneno" placeholder="Phone no" required>
+                        <textarea name="message" id="message" cols="100" rows="4" placeholder="Drop me a message"></textarea>
+                        
+                        <button type="submit reset()" >Submit</button>
                     </form>
                 </div>
             </section>
@@ -351,6 +352,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
        <script src="assets/js/main.js"></script>
        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
        <script src="assets/js/typed.js"></script>
+       
+ 
 
     </body>
 </html>
