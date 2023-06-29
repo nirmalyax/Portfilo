@@ -581,7 +581,55 @@ H2{
     opacity: 0;
   }
 
-  
+
+/* =========Skills========== */ 
+
+
+/* =========Projects========== */ 
+.project-container {
+  gap: 2rem;
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* column-gap: 2rem; */
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+.project-img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.project-img img {
+  transition: 1s;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  width: 500px;
+}
+.project-img img:hover {
+  transform: scale(1.1);
+}
+.project-container p {
+  margin: auto 1rem 1rem;
+}
+.project-title {
+  margin-bottom: var(--mb-2);
+  margin-top: var(--mb-3);
+  font-size: var(--h2-font-size);
+}
+.project-subtitle {
+  margin-bottom: var(--mb-4);
+  padding-bottom: 3.5rem;
+}
+.small-btn {
+  padding: 0.3rem 1.3rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+.project-btns {
+  position: absolute;
+  bottom: 0;
+}
   
 /* =========contact========== */  
 .contact{
