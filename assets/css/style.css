@@ -256,7 +256,7 @@ H2{
  margin: 50px 0px;
  font-family: system-ui;
  font-size: 2em;
- background: linear-gradient(-45deg, #7D3937 0%, #FC726D 100% );
+ background: linear-gradient(-45deg, #000000 20%, #ffffff 100% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -483,15 +483,23 @@ H2{
 
 
 
-
-
+/* ================Experience=============== */
+.experience{
+  background-color: #0B65C2;
+}
 
  .third{
+    /* display: flex;
+    justify-content: center; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
  }
 
   .card-container1{
+    display: flex;
+    justify-content: center;
     width: 1278px;
     height: 300px;
     position: relative;
@@ -520,10 +528,11 @@ H2{
     align-items: center;
     justify-content: center;
     padding-top: 10px;
-    font-size: 32px;
+    font-size: 45px;
+    letter-spacing: 7px;
     font-weight: 700;
     opacity: 1;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    background: linear-gradient(-45deg, #29c4f8 0%, #370fff 100% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -544,7 +553,7 @@ H2{
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    background: linear-gradient(-45deg, #29c4f8 0%, #370fff 100% );
     color: #e8e8e8;
     padding: 20px;
     line-height: 1.5;
@@ -553,6 +562,7 @@ H2{
     transform: translateY(96%);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
+ 
   
   .card2 .content .heading {
     font-size: 32px;
