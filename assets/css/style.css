@@ -740,19 +740,69 @@ header {
 
   
 /* =========contact========== */  
+.cred{
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+    flex-direction: column;
+    /* margin-top: -1rem; */
+    padding: 5rem;
+}
+.cred p{
+  letter-spacing: 2px;
+    margin-top: 2rem;
+}
+.cred h2{
+  letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
 
+#contact{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.9rem;
+}
+#contact a{
+  text-decoration: none;
+}
+#contact .text {
+  padding-left: 4px;
+  color: #000;
+  letter-spacing: 1px;
+}
+.icon{
+  width: 25px;
+}
+.list{
+  padding:03px;
+}
+
+ .list:hover{
+  background-color: #FF5361;
+  /* padding: 2px; */
+  border-radius: 5px;
+  cursor:pointer ;
+  width: 70%;
+}
 .contact{
   width: 100%;
   height: 100%;
-  /* padding: 63px 53px; */
+  padding: 13px ;
   margin-bottom: 5rem;
     margin-top: -4rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
   /* background: url(/assets/img/white-back.avif); */
 }
 .contact1{
+  /* background-color: red; */
+  width: 50%;
   display: flex;
   justify-content: center;
 }
