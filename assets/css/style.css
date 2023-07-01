@@ -502,103 +502,111 @@ header {
 
 
 /* ================Experience=============== */
-.experience{
-  background-color: #0B65C2;
+.timeline{
+  display: block;
+  width: 80%;
+  margin: 150px auto;
 }
 
- .third{
-    /* display: flex;
-    justify-content: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- }
+.timeline .heading{
+  margin-bottom: 150px;
+}
 
-  .card-container1{
-    display: flex;
-    justify-content: center;
-    width: 1278px;
-    height: 300px;
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-  }
-  
-  .card2 {
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-  }
-  
-  .card2 .front-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
-  
-  .card2 .front-content p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    font-size: 45px;
-    letter-spacing: 7px;
-    font-weight: 700;
-    opacity: 1;
-    background: linear-gradient(-45deg, #29c4f8 0%, #370fff 100% );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
+.card-e{
+  width: 45%;
+  padding: 30px;
+  border-radius: 10px;
+  color: #ececec;
+  display: block;
+  margin: -80px 0;
+  position: relative;
+  background: rgb(161, 97, 97);
+}
 
-  
-  
-  .card2 .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-    background: linear-gradient(-45deg, #29c4f8 0%, #370fff 100% );
-    color: #e8e8e8;
-    padding: 20px;
-    line-height: 1.5;
-    border-radius: 5px;
-    pointer-events: none;
-    transform: translateY(96%);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
- 
-  
-  .card2 .content .heading {
-    font-size: 32px;
-    font-weight: 700;
-  }
-  
-  .card2:hover .content {
-    transform: translateY(0);
-  }
-  
-  .card2:hover .front-content {
-    transform: translateY(-30%);
-  }
-  
-  .card2:hover .front-content p {
-    opacity: 0;
-  }
+.card-e:nth-child(even){
+  margin-left: auto;
+}
 
+.card-e:nth-child(even):before{
+  content: '';
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 5px solid #191919;
+  border-radius: 50%;
+}
+
+.card-e:nth-child(even):after{
+  content: '';
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7%;
+  height: 2px;
+  background: #000000;
+  z-index: -1;
+}
+
+.card-e:nth-child(odd):before{
+  content: '';
+  position: absolute;
+  right: -13%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 5px solid #191919;
+  border-radius: 50%;
+}
+
+.card-e:nth-child(odd):after{
+  content: '';
+  position: absolute;
+  right: -8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7%;
+  height: 2px;
+  background: #000000;
+  z-index: -1;
+}
+
+.card-e:nth-child(2), .card-e:nth-child(2):before{
+  background: #ff4f4f;
+}
+.card-e:nth-child(3), .card-e:nth-child(3):before{
+  background: #ffb84f;
+}
+.card-e:nth-child(4), .card-e:nth-child(4):before{
+  background: #3dca5c;
+}
+.card-e:nth-child(5), .card-e:nth-child(5):before{
+  background: #565252;
+}
+.card-e:nth-child(6), .card-e:nth-child(6):before{
+  background: #4fa0ff;
+}
+
+.card-e:nth-child(even) .card-body:before{
+  content: '';
+  position: absolute;
+  left: -12%;
+  top: 0;
+  width: 0px;
+  height: 100%;
+  border: 1px dashed #000000;
+  z-index: -1;
+}
+
+.card-title{
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 
 /* =========Skills========== */ 
 
