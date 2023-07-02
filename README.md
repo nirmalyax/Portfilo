@@ -70,7 +70,7 @@ Remember to keep this portfolio wiki up to date with your latest projects and co
 
 
 
-# Licensse
+# License
 
 
                                  Apache License
