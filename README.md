@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-# Portfolio Design Skeleton
+#                  Portfolio Design Skeleton
 
 ## Introduction
 Welcome to the portfolio wiki for my GitHub! This wiki serves as a comprehensive overview of the projects and contributions I have made on GitHub. Here, you'll find information about my skills, expertise, and the projects that demonstrate my abilities as a developer. Feel free to explore and learn more about my work.
