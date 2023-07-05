@@ -56,3 +56,11 @@
 }
 
 /* ======skills==== */
+@media(max-width: 992px){
+    .ftr{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        overflow-x: hidden;
+    }
+}

@@ -10,7 +10,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
+.body{
   background-color: #f4f2f8;
   overflow-x: hidden;
 }
