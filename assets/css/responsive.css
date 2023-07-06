@@ -58,9 +58,18 @@
 /* ======skills==== */
 @media(max-width: 992px){
     .ftr{
-        display: flex;
+        display: block;
         flex-direction: column;
         width: fit-content;
         overflow-x: hidden;
     }
+}
+@media(max-width: 992px){
+    .right{
+        display: none;
+        flex-direction: column;
+        width: fit-content;
+        overflow-x: hidden;
+    }
+    
 }
