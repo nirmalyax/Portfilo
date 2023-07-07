@@ -55,12 +55,21 @@
     }
 }
 
-/* ======skills==== */
+/* ======Home==== */
 
 @media(max-width: 992px){
+    .left{
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+    .btn1{
+        display: flex;
+        justify-content: center;
+    }
     .right1{
         display: none;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     
 }
