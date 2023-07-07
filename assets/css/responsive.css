@@ -65,6 +65,27 @@
     
 }
 
+/* ======Aboutme==== */
+@media(max-width: 992px){
+    .second{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .card{
+        margin-top: 0.5rem;
+        margin-bottom: 5rem;
+    }
+    .about1{
+        width: fit-content;
+    }
+}
+
+
+
+
+
 /* ======footer==== */
 @media(max-width: 992px){
     .ftr{
@@ -73,16 +94,23 @@
         overflow-x: hidden;
         padding: 2rem;
     }
-    .lef{
-        display: flex;
-        flex-direction: column;
+    .lef #bio {
+        margin: inherit;
+        width: auto;
+        padding-bottom: inherit;
+    }
+    .lef #ft,
+    .lef .lic,
+    .lef #bio{
+        
+        margin: inherit;
     }
     .w-full{
         display: none;
     }
     .rit{
         display: flex;
-        gap: 5rem;
+        gap: 6rem;
         padding-bottom: 10rem;
     }
     .mt-6{

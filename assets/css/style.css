@@ -9,11 +9,14 @@
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 .body{
   background-color: #f4f2f8;
   overflow-x: hidden;
+  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .icon{
@@ -245,6 +248,7 @@ header {
 
 .second{
     display: flex;
+    text-align: justify;
     justify-content: space-around;
     margin: 20px 10px;
 
@@ -372,6 +376,7 @@ header {
 
 .about1{
     width: 60%;
+    max-width: fit-content;
     /* background-color: red;
     display: flex;
     justify-content: center; */
