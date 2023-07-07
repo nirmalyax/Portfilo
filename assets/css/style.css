@@ -9,8 +9,10 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
   height: -webkit-fill-available;
 }
+
 
 .body{
   background-color: #f4f2f8;
