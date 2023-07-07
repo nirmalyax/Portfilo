@@ -59,7 +59,7 @@
 
 @media(max-width: 992px){
     .right1{
-        display: flex;
+        display: none;
         overflow-x: hidden;
     }
     
