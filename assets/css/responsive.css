@@ -56,20 +56,38 @@
 }
 
 /* ======skills==== */
+
+@media(max-width: 992px){
+    .right1{
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+}
+
+/* ======footer==== */
 @media(max-width: 992px){
     .ftr{
-        display: block;
+        display: flex;
         flex-direction: column;
-        width: fit-content;
         overflow-x: hidden;
+        padding: 2rem;
     }
-}
-@media(max-width: 992px){
-    .right{
+    .lef{
+        display: flex;
+        flex-direction: column;
+    }
+    .w-full{
         display: none;
-        flex-direction: column;
-        width: fit-content;
-        overflow-x: hidden;
     }
+    .rit{
+        display: flex;
+        gap: 5rem;
+        padding-bottom: 10rem;
+    }
+    .mt-6{
+        display: flex;
+    }
+    
     
 }
