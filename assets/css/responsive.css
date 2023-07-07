@@ -106,7 +106,7 @@
         margin: inherit;
     }
     .w-full{
-        display: none;
+        /* display: none; */
     }
     .rit{
         display: flex;
@@ -115,7 +115,5 @@
     }
     .mt-6{
         display: flex;
-    }
-    
-    
+    }  
 }
