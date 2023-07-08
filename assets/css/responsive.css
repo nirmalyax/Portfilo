@@ -121,12 +121,20 @@
     .w-full{
         /* display: none; */
     }
-    /* .rit{
-        display: flex;
-        gap: 6rem;
-        padding-bottom: 10rem;
-    } */
     .mt-6{
         display: flex;
     }  
+}
+
+
+
+@media(max-width: 576px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .cred{
+        justify-content: center;
+        width: inherit;
+    }
 }
